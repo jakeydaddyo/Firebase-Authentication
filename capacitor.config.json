@@ -1,0 +1,16 @@
+{
+  "appId": "com.cranstontabor.fiveinarow",
+  "appName": "5 In A Row Mobile",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorFirebaseAuth": {
+      "providers": ["google.com"],
+      "languageCode": "en",
+      "nativeAuth": false
+    }
+  }
+}
